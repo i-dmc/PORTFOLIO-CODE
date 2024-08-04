@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    background-color: #F6F4E9;
+    color: #061F44;
+}
+
+body {
+    margin: 0 120px 0 120px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 0 200px 0;
+    font-size: 24px;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 62px;
+    font-weight: 400;
+}
+
+.intro-text {
+    max-width: 700px;
+    padding-bottom: 250px;
+}
+
+h3 {
+    font-size: 56px;
+    padding-bottom: 40px;
+}
+
+.project-tile {
+    border-top: 1px solid black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.project-tile:hover {
+    colour: black;
+}
+
+.about {
+    display: flex;
+    gap: 120px;
+}
+
+
+.about-left {
+    position: sticky;
+    top: 100px;
+    z-index: 100;
+    background-color: transparent;
+    max-height: 250px;
+    padding-right: 75px;
+    border-right: 2px solid #061f44;
+    /*text-align: right;*/
+}
+
+.tldr {
+    font-size: 24px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+
+.short-form {
+    font-size: 46px;
+}
+
+.about-right {
+    font-size: 18px;
+    max-width: 650px;
+}
+
+.about-heading {
+    padding-top: 80px;
+    padding-bottom: 25px;
+    font-size: 36px;
+}
+
+.program {
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.institution {
+    padding-bottom: 30px;
+    padding-right: 80px;
+}
+
+.header-img {
+    max-height: 200px;
+}
+
+.project1-img {
+    display: block;
+    width: 100%;
+
+}
