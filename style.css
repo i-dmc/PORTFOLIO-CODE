@@ -52,11 +52,32 @@ h3 {
 }
 
 .tile {
+    background-color: #F6F4E9;
     border: 1px solid #061F44;
-    border-radius: 25px;
+    border-radius: 15px;
     padding: 25px 0 25px 25px;
 }
 
+.tile:hover {
+    color: #F6F4E9;
+    background-color: #061F44;
+}
+
+.tile:hover .project-name,
+.tile:hover .project-role {
+    color: #F6F4E9;
+    background-color: #061F44;
+}
+
+.project-name {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.project-role {
+    font-size: 18px;
+    font-style: italic;
+}
 
 .about {
     display: flex;
