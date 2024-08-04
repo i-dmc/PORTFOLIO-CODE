@@ -12,7 +12,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 75px 0 200px 0;
+    padding: 75px 0 75px 0;
     font-size: 24px;
 }
 
@@ -46,6 +46,7 @@ h2 {
 }
 
 .hp-intro {
+    padding-top: 175px;
     padding-bottom: 250px;
 }
 
