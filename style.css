@@ -1,8 +1,8 @@
 * {
     margin: 0;
-    background-color: #F6F4E9;
-    color: #061F44;
+    color: #000000;
 }
+
 
 body {
     margin: 0 120px 0 120px;
@@ -13,7 +13,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 75px 0 75px 0;
-    font-size: 24px;
+}
+
+h6 {
+    font-size: 18px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .right-nav {
@@ -27,71 +34,102 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
 
 h1 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 185px;
+}
+
+H2 {
     font-size: 100px;
-}
-
-h2 {
-    font-size: 62px;
-    font-weight: 400;
-}
-
-.intro-text {
-    max-width: 700px;
-}
-
-.hp-intro {
-    padding-top: 175px;
-    padding-bottom: 250px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 900;
+    line-height: 96px;
 }
 
 h3 {
-    font-size: 56px;
-    padding-bottom: 40px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 56px;
 }
+
+.hp-intro {
+    padding-top: 75px;
+    padding-bottom: 250px;
+}
+
+.intro-text {
+    max-width: 600px;
+}
+
+.small-intro {
+    padding-top: 35px;
+}
+
 
 .projects {
     padding-bottom: 250px;
 }
 
+
 .tile {
-    background-color: #F6F4E9;
-    border: 1px solid #061F44;
-    border-radius: 15px;
-    padding: 25px 0 25px 25px;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    padding-left: 80px;
 }
 
-.tile:hover {
-    color: #F6F4E9;
-    background-color: #061F44;
+.pas {
+    background-image: url('./Images/Group 770 (1).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.tile:hover .project-name,
-.tile:hover .project-role {
-    color: #F6F4E9;
-    background-color: #061F44;
+.stv {
+    background-image: url('./Images/Group 771.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+.cslr {
+    background-image: url('./Images/Group 757.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 
 .project-name {
-    font-size: 24px;
-    padding-bottom: 10px;
+    color: #ffffff;
+    padding-bottom: 30px;
+    max-width: 700px;
 }
 
 .project-role {
-    font-size: 18px;
-    font-style: italic;
+    display: flex;
+    gap: 30px;
+    padding-left: 10px;
 }
+
+.list-start {
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.list-follow {
+    color: #ffffff;
+}
+
 
 .about {
     display: flex;
     gap: 120px;
 }
-
 
 .about-left {
     position: sticky;
@@ -105,21 +143,25 @@ h3 {
     /*text-align: right;*/
 }
 
+
 .tldr {
     font-size: 24px;
     padding-bottom: 10px;
     padding-top: 15px;
 }
 
+
 .short-form {
     font-size: 46px;
     padding-bottom: 15px;
 }
 
+
 .about-right {
     font-size: 18px;
     max-width: 650px;
 }
+
 
 .about-heading {
     padding-top: 80px;
@@ -127,19 +169,23 @@ h3 {
     font-size: 36px;
 }
 
+
 .program {
     font-weight: bold;
     padding-bottom: 6px;
 }
+
 
 .institution {
     padding-bottom: 30px;
     padding-right: 80px;
 }
 
+
 .header-img {
     max-height: 200px;
 }
+
 
 .project1-img {
     display: block;
@@ -148,8 +194,8 @@ h3 {
 
 
 section.image-text-button {
-    background-image: url('/Images/20231112_065543.jpg');
-    background-position: 0 50%;
+    background-image: url('./Images/Group 706.jpg');
+    background-position: 100% 50%;
     background-size: cover;
     background-repeat: no repeat;
     background-attachment: fixed;
@@ -160,4 +206,13 @@ section.image-text-button {
 
 .placeholder {
     padding: 50px 0 1000px 0;
+}
+
+.title {
+    font-size: 60px;
+    color: #ffffff;
+    Padding-left: 50px;
+    max-width: 500px;
+    line-height: 80px;
+    background-color: transparent;
 }
