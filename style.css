@@ -102,10 +102,10 @@ h6 {
 }
 
 .project-show-hover {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 500px;
     opacity: 0;
     transform: translateY(290px);
     transition: all 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
@@ -118,6 +118,7 @@ h6 {
 }
 
 .tile-cta {
+    padding-top: 100px;
     color: #ffffff;
 }
 
