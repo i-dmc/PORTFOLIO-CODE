@@ -90,6 +90,7 @@ h6 {
     justify-content: center;
     height: 450px;
     padding-left: 80px;
+    overflow: hidden;
 }
 
 .pas {
@@ -97,8 +98,40 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
+.project-show-hover {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(290px);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.pas:hover .project-show-hover {
+    z-index: 10;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tile-cta {
+    color: #ffffff;
+}
+
+.project-name {
+    color: #ffffff;
+    padding-bottom: 30px;
+    max-width: 700px;
+}
+
+.project-role {
+    display: flex;
+    gap: 30px;
+    padding-left: 10px;
+}
 
 .tile:hover .pas,
 .pas:hover .project-name,
@@ -106,7 +139,6 @@ h6 {
 .pas:hover .list-follow {
     opacity: 0;
 }
-
 
 
 .stv {
@@ -136,17 +168,6 @@ h6 {
 }
 
 
-.project-name {
-    color: #ffffff;
-    padding-bottom: 30px;
-    max-width: 700px;
-}
-
-.project-role {
-    display: flex;
-    gap: 30px;
-    padding-left: 10px;
-}
 
 .list-start {
     list-style-type: none;
