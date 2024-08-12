@@ -106,12 +106,12 @@ h6 {
     justify-content: space-between;
     align-items: center;
     opacity: 0;
+    height: 0;
     transform: translateY(290px);
     transition: all 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 .pas:hover .project-show-hover {
-    z-index: 10;
     opacity: 1;
     transform: translateY(0);
 }
@@ -137,8 +137,8 @@ h6 {
 .pas:hover .list-start,
 .pas:hover .list-follow {
     opacity: 0;
+    display: none;
 }
-
 
 .stv {
     background-image: url('./Images/STV-BG.jpg');
