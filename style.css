@@ -101,26 +101,30 @@ h6 {
     overflow: hidden;
 }
 
-.project-show-hover {
+.pas-show-hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 300px;
+    gap: 275px;
     opacity: 0;
     height: 0;
     transform: translateY(290px);
 }
 
 
-.pas:hover .project-show-hover {
+.pas:hover .pas-show-hover {
     opacity: 1;
     transform: translateY(0);
     transition: all 0.3s ease-in;
     margin-top: auto;
+    height: auto;
 }
 
 .tile-cta {
     color: #ffffff;
+    margin-top: auto;
+    height: auto;
+    padding-bottom: 25px;
 }
 
 .project-name {
@@ -156,6 +160,25 @@ h6 {
     opacity: 0;
 }
 
+.stv-show-hover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 275px;
+    opacity: 0;
+    height: 0;
+    transform: translateY(290px);
+}
+
+
+.stv:hover .stv-show-hover {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.3s ease-in;
+    margin-top: auto;
+    height: auto;
+}
+
 .cslr {
     background-image: url('./Images/CSLR-BG.jpg');
     background-repeat: no-repeat;
@@ -169,7 +192,25 @@ h6 {
     opacity: 0;
 }
 
+.cslr-show-hover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 275px;
+    opacity: 0;
+    height: 0;
+    transform: translateY(290px);
+}
 
+
+.cslr:hover .cslr-show-hover {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.3s ease-in;
+    margin-top: auto;
+    height: auto;
+    ;
+}
 
 .list-start {
     list-style-type: none;
