@@ -280,9 +280,8 @@ footer {
     background-color: transparent;
     padding-right: 75px;
     padding-bottom: 15px;
-    border-right: 2px solid #061f44;
+    border-right: 1.5px solid #061f44;
     max-width: 500px;
-    /*text-align: right;*/
 }
 
 
@@ -334,11 +333,11 @@ footer {
 }
 
 
-section.image-text-button {
-    background-image: url('./Images/Group 706.jpg');
+.image-text-button {
+    background-image: url('./Images/PAS-BG.jpg');
     background-position: 100% 50%;
     background-size: cover;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100px;
     padding: 150px 0 150px 0;
@@ -350,10 +349,12 @@ section.image-text-button {
 }
 
 .title {
-    font-size: 60px;
+    font-size: 80px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 900;
+    line-height: 85px;
     color: #ffffff;
     Padding-left: 50px;
-    max-width: 500px;
-    line-height: 80px;
+    max-width: 800px;
     background-color: transparent;
 }
