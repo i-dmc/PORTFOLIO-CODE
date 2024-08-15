@@ -194,9 +194,10 @@ h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 275px;
+    gap: 445px;
     opacity: 0;
     height: 0;
+    padding-left: 50px;
     transform: translateY(290px);
 }
 
