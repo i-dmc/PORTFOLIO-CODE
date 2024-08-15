@@ -44,6 +44,8 @@ h2 {
     font-family: "Kumbh Sans", sans-serif;
     font-weight: 900;
     line-height: 95px;
+    z-index: 10;
+    height: auto;
 }
 
 h3 {
@@ -68,6 +70,7 @@ h5 {
 }
 
 h6 {
+    z-index: 10;
     font-size: 18px;
     font-family: "Kumbh Sans", sans-serif;
     font-optical-sizing: auto;
@@ -75,6 +78,7 @@ h6 {
     font-style: normal;
     line-height: 30px;
     padding-bottom: 5px;
+    height: auto;
 }
 
 .hp-intro {
@@ -168,6 +172,11 @@ h6 {
     display: none;
 }
 
+.tile:hover h2,
+.tile:hover .h6 {
+    height: 0;
+}
+
 .stv {
     background-image: url('./Images/STV-BG.jpg');
     background-repeat: no-repeat;
@@ -198,6 +207,7 @@ h6 {
     transition: all 0.3s ease-in;
     margin-top: auto;
     height: auto;
+    z-index: 8;
 }
 
 .cslr {
