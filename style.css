@@ -65,7 +65,7 @@ h4 {
 
 h5 {
     font-family: "Kumbh Sans", sans-serif;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
 }
 
@@ -91,7 +91,25 @@ h6 {
     display: flex;
     align-items: baseline;
     padding-bottom: 10px;
+}
 
+.wave {
+    transform-origin: bottom center;
+    transform: rotate(-7deg);
+    animation: wave 1s 2;
+    animation-delay: 0.6s;
+}
+
+@keyframes wave {
+
+    0%,
+    100% {
+        transform: rotate(-7deg);
+    }
+
+    50% {
+        transform: rotate(7deg);
+    }
 }
 
 .intro-text {
@@ -130,7 +148,7 @@ h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 275px;
+    width: 100%;
     opacity: 0;
     height: 0;
     transform: translateY(290px);
@@ -150,6 +168,8 @@ h6 {
     margin-top: auto;
     height: auto;
     padding-bottom: 25px;
+    margin-left: auto;
+    padding-right: 50px;
 }
 
 .project-name {
@@ -194,10 +214,9 @@ h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 445px;
+    width: 100%;
     opacity: 0;
     height: 0;
-    padding-left: 50px;
     transform: translateY(290px);
 }
 
@@ -228,7 +247,7 @@ h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 275px;
+    width: 100%;
     opacity: 0;
     height: 0;
     transform: translateY(290px);
@@ -241,7 +260,6 @@ h6 {
     transition: all 0.3s ease-in;
     margin-top: auto;
     height: auto;
-    ;
 }
 
 .list-start {
@@ -286,7 +304,6 @@ footer {
 .about-left {
     position: sticky;
     top: 100px;
-    z-index: 100;
     height: 100%;
     background-color: transparent;
     padding-right: 75px;
@@ -350,14 +367,12 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100px;
-    padding: 150px 0 150px 0;
+    padding: 125px 0 125px 0;
+    margin-bottom: 75px;
 }
 
 
-.placeholder {
-    padding: 50px 0 1000px 0;
-}
+
 
 .title {
     font-size: 80px;
@@ -366,6 +381,75 @@ footer {
     line-height: 85px;
     color: #ffffff;
     Padding-left: 50px;
-    max-width: 800px;
+    max-width: 900px;
     background-color: transparent;
+}
+
+.project-type {
+    font-size: 32px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 40px;
+}
+
+.about-left-prj {
+    position: sticky;
+    top: 100px;
+    height: 100%;
+    background-color: transparent;
+    padding-right: 75px;
+    border-right: 1.5px solid #061f44;
+    width: 400px;
+}
+
+.project-phase {
+    padding-bottom: 25px;
+}
+
+.project-heading {
+    padding: 25px 0 25px 0;
+}
+
+.bullet-point {
+    padding: 5px 0 4px 0;
+}
+
+.preview-img {
+    padding-top: 100px;
+    max-width: 700px;
+}
+
+.preview-cslr {
+    padding: 100px 0 100px 0;
+    max-width: 500px;
+}
+
+.imagery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prj-sub {
+    padding-bottom: 25px;
+}
+
+.full-image {
+    margin-top: 100px;
+    padding: 100px 0 100px 0;
+}
+
+.full-img {
+    width: 100%;
+    /* Makes the image scale to the width of its container */
+    max-width: 100%;
+    /* Prevents the image from exceeding its container's width */
+    height: auto;
+    /* Maintains aspect ratio */
+    display: block;
+}
+
+.sub-title {
+    font-weight: 500;
+    padding: 10px 0 15px 0;
 }
