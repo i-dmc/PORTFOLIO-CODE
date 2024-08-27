@@ -20,6 +20,15 @@ nav {
     padding: 75px 0 75px 0;
 }
 
+
+.nav-item {
+    padding-bottom: 5px;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid black;
+}
+
 .right-nav {
     display: flex;
     justify-content: space-between;
@@ -145,7 +154,7 @@ h6 {
 }
 
 .pas {
-    background-image: url('./Images/PAS-BG.jpg');
+    background-image: url('./Images/HOMEPAGE/PAS-BG.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -225,7 +234,7 @@ h6 {
 }
 
 .stv {
-    background-image: url('./Images/STV-BG.jpg');
+    background-image: url('./Images/HOMEPAGE/STV-BG.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -258,7 +267,7 @@ h6 {
 }
 
 .cslr {
-    background-image: url('./Images/CSLR-BG.jpg');
+    background-image: url('./Images/HOMEPAGE/CSLR-BG.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -434,16 +443,14 @@ footer {
     margin-bottom: 75px;
 }
 
-
-
 .title {
-    font-size: 80px;
+    font-size: 85px;
     font-family: "Kumbh Sans", sans-serif;
     font-weight: 900;
-    line-height: 85px;
+    line-height: 100px;
     color: #ffffff;
     Padding-left: 50px;
-    max-width: 900px;
+    max-width: 1000px;
     background-color: transparent;
 }
 
@@ -525,16 +532,16 @@ footer {
 }
 
 .previous-button:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     box-sizing: border-box;
 }
 
 .next-button:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 .previous-button {
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
     padding-bottom: 5px;
 }
 
@@ -553,24 +560,28 @@ footer {
 }
 
 
-
 .first-full-image {
     background-color: #FAFAFA;
     margin-top: 150px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 25px;
     box-sizing: border-box;
+    padding: 50px;
 }
 
-.images {
+.sub-full-image {
+    background-color: #FAFAFA;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
-    gap: 50px;
-    max-width: 500px;
+    gap: 25px;
+    box-sizing: border-box;
+    padding: 50px 0 50px 0;
 }
 
 .full-img {
     width: auto;
-    height: auto;
-    max-height: 1440px;
+    height: 100%;
 }
