@@ -13,7 +13,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,500,0,0" />
 </head>
+
+<style>
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 500,
+            'GRAD' 0,
+            'opsz' 20
+    }
+</style>
 
 <body>
     <nav class="navbar">
@@ -22,10 +34,13 @@
         </div>
         <ul class=right-nav>
             <h6>
-                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#projects">Projects</a></li>
             </h6>
             <h6>
                 <li><a href="about.html">About</a></li>
+            </h6>
+            <h6>
+                <li><a href="#contact">Contact</a></li>
             </h6>
         </ul>
     </nav>
@@ -39,10 +54,11 @@
         </div>
         <div class="small-intro">
             <h6>Scroll on for the good stuff</h6>
+            <img src="./Images/arrow_downward_20dp_000000_FILL0_wght500_GRAD0_opsz20.svg" alt="downwards arrow">
         </div>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <a href="project1.html" class="tile pas">
             <h2 class='project-name'>Parramatta Artist Studios</h2>
             <h6>
@@ -53,9 +69,11 @@
             </h6>
             <div class="pas-show-hover">
                 <img src="./Images/pasHP.png" alt="PAS mockups">
-                <h6 class="tile-cta">
-                    View case study
-                </h6>
+                <div class="cta">
+                    <h6>View case study<h6>
+                            <img src="./Images/arrow_forward_20dp_FFFFFF_FILL0_wght500_GRAD0_opsz20.svg"
+                                alt="arrow-next">
+                </div>
             </div>
         </a>
         <br>
@@ -69,9 +87,11 @@
             </h6>
             <div class="stv-show-hover">
                 <img src="./Images/STVHP.png" alt="STV mockups">
-                <h6 class="tile-cta">
-                    View case study
-                </h6>
+                <div class="cta">
+                    <h6>View case study<h6>
+                            <img src="./Images/arrow_forward_20dp_FFFFFF_FILL0_wght500_GRAD0_opsz20.svg"
+                                alt="arrow-next">
+                </div>
             </div>
         </a>
         <br>
@@ -86,26 +106,34 @@
             </h6>
             <div class="cslr-show-hover">
                 <img src="./Images/HPCSLR.png" alt="CSLR mockups">
-                <h6 class="tile-cta">
-                    View case study
-                </h6>
+                <div class="cta">
+                    <h6>View case study<h6>
+                            <img src="./Images/arrow_forward_20dp_FFFFFF_FILL0_wght500_GRAD0_opsz20.svg"
+                                alt="arrow-next">
+                </div>
             </div>
         </a>
     </section>
 
 
-
     <footer>
-        <div class=footer-title>
+        <div class=footer-title id="contact">
             <h3>Get in touch</h3>
+            <img src="./Images/noun-write-222484 3.svg" alt="pencil illustration" class="pencil">
         </div>
-        <h6 class="footer-text">Like what you see? Drop me a line via email or connect with me on Linkedin below.</h6>
+        <h6 class="footer-text">Like what you see? Drop me a line via email or connect with me on Linkedin below.
+        </h6>
         <div class="footer-links">
-            <a href="mailto:idujmovic19@gmail.com">Email me</a>
+            <div class="contact-type">
+                <img src="./Images/paper-plane-icon 1.png" alt="plane" class="mail-icon">
+                <a href="mailto:idujmovic19@gmail.com">Email me</a>
+            </div>
             <p>
+            <div class="contact-type">
+                <img src="./Images/linkedin.png" alt="plane" class="linkedin-icon">
                 <a href="https://www.linkedin.com/in/ivadujmovic/" target="_blank"
                     rel="noopener noreferrer">Linkedin</a>
-        </div>
+            </div>
     </footer>
 
 </body>

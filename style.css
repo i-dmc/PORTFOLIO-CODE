@@ -65,7 +65,7 @@ h4 {
 
 h5 {
     font-family: "Kumbh Sans", sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 500;
 }
 
@@ -83,7 +83,7 @@ h6 {
 
 .hp-intro {
     padding-top: 75px;
-    padding-bottom: 250px;
+    padding-bottom: 125px;
     gap: 100px;
 }
 
@@ -113,16 +113,24 @@ h6 {
 }
 
 .intro-text {
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .small-intro {
     padding-top: 35px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
+.small-intro h6 {
+    padding-bottom: 0;
+    font-weight: 400;
+}
 
 .projects {
     padding-bottom: 250px;
+    padding-top: 125px;
 }
 
 
@@ -170,6 +178,25 @@ h6 {
     padding-bottom: 25px;
     margin-left: auto;
     padding-right: 50px;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: auto;
+    height: auto;
+    padding-bottom: 25px;
+    margin-left: auto;
+    padding-right: 30px;
+}
+
+.cta h6 {
+    color: #ffffff;
+}
+
+.cta img {
+    vertical-align: middle;
 }
 
 .project-name {
@@ -277,12 +304,24 @@ footer {
 }
 
 .footer-title {
-    padding-bottom: 25px;
+    align-items: flex-end;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 25px;
+}
+
+.footer-title h3 {
+    line-height: 56px;
+}
+
+.pencil {
+    max-height: 100px;
 }
 
 .footer-text {
     padding: 20px 0 30px 0;
     max-width: 475px;
+    font-weight: 400;
 }
 
 .footer-links {
@@ -294,8 +333,32 @@ footer {
     line-height: 40px;
 }
 
+.mail-icon {
+    width: 20px;
+    padding-right: 15px;
+}
+
+.linkedin-icon {
+    width: 20px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+}
+
+.contact-type {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
 
 .about {
+    display: flex;
+    gap: 120px;
+    padding-top: 50px;
+    margin-bottom: 250px;
+}
+
+.case-study {
     display: flex;
     gap: 120px;
     padding-top: 50px;
@@ -373,7 +436,6 @@ footer {
 
 
 
-
 .title {
     font-size: 80px;
     font-family: "Kumbh Sans", sans-serif;
@@ -407,7 +469,8 @@ footer {
 }
 
 .project-heading {
-    padding: 25px 0 25px 0;
+    padding: 30px 0 25px 0;
+    line-height: 40px;
 }
 
 .bullet-point {
@@ -419,8 +482,13 @@ footer {
     max-width: 700px;
 }
 
+.small-img {
+    padding: 100px;
+    max-width: 500px;
+}
+
 .preview-cslr {
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
     max-width: 500px;
 }
 
@@ -434,22 +502,75 @@ footer {
     padding-bottom: 25px;
 }
 
-.full-image {
-    margin-top: 100px;
-    padding: 100px 0 100px 0;
+
+.sub-full-image {
+    margin-top: 25px;
+    background-color: #FAFAFA;
+    text-align: center;
 }
 
-.full-img {
-    width: 100%;
-    /* Makes the image scale to the width of its container */
-    max-width: 100%;
-    /* Prevents the image from exceeding its container's width */
-    height: auto;
-    /* Maintains aspect ratio */
-    display: block;
-}
 
 .sub-title {
     font-weight: 500;
     padding: 10px 0 15px 0;
+}
+
+.project-buttons {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 245px;
+    width: auto;
+}
+
+.previous-button:hover {
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+}
+
+.next-button:hover {
+    border-bottom: 1px solid black;
+}
+
+.previous-button {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.next-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.top-line {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.first-full-image {
+    background-color: #FAFAFA;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 500px;
+}
+
+.full-img {
+    width: auto;
+    height: auto;
+    max-height: 1440px;
 }
