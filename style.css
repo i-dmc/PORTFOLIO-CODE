@@ -64,6 +64,7 @@ nav {
 
 @media (max-width: 768px) {
     .home {
+        display: inline;
         height: 25px;
         padding-top: 3px;
     }
