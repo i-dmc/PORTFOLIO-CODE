@@ -805,7 +805,7 @@ footer {
 @media (max-width: 768px) {
     .image-text-button-stv {
         background-image: url('./Images/HOMEPAGE/STV-BG.jpg');
-        background-position: 100% 50%;
+        background-position: 80% 80%;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -816,7 +816,7 @@ footer {
 
 .image-text-button-cslr {
     background-image: url('./Images/HOMEPAGE/CSLR-BG.jpg');
-    background-position: 100% 50%;
+    background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -827,7 +827,7 @@ footer {
 @media (max-width: 768px) {
     .image-text-button-cslr {
         background-image: url('./Images/HOMEPAGE/CSLR-BG.jpg');
-        background-position: 50% 50%;
+        background-position: 10% 100%;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
