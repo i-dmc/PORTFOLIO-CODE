@@ -1180,7 +1180,7 @@ footer {
     }
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 769px) and (max-width: 1429px) {
     .full-img {
         width: auto;
         height: 100%;
@@ -1201,7 +1201,8 @@ footer {
     }
 }
 
-@media (max-width: 1429px) {
+
+@media (min-width: 769px) and (max-width: 1429px) {
     .full-img2 {
         margin-top: 0;
         width: auto;
@@ -1223,7 +1224,8 @@ footer {
     }
 }
 
-@media (max-width: 1429px) {
+
+@media (min-width: 769px) and (max-width: 1429px) {
     .full-img3 {
         margin-top: 0;
         width: auto;
@@ -1245,7 +1247,8 @@ footer {
     }
 }
 
-@media (max-width: 1429px) {
+
+@media (min-width: 769px) and (max-width: 1429px) {
     .full-img4 {
         margin-top: 0;
         width: auto;
@@ -1302,7 +1305,8 @@ footer {
     }
 }
 
-@media (max-width: 1429px) {
+
+@media (min-width: 769px) and (max-width: 1429px) {
     .cslr-full-image {
         background-color: #FAFAFA;
         margin-top: 100px;
@@ -1327,7 +1331,8 @@ footer {
     }
 }
 
-@media (max-width: 1429px) {
+
+@media (min-width: 769px) and (max-width: 1429px) {
     .cslrfull-img {
         width: auto;
         height: 100%;
@@ -1349,7 +1354,8 @@ footer {
     }
 }
 
-@media (max-width: 1429px) {
+
+@media (min-width: 769px) and (max-width: 1429px) {
     .cslrfull-img2 {
         width: auto;
         height: 100%;
@@ -1369,7 +1375,7 @@ footer {
     }
 }
 
-@media (max-width: 1429px) {
+@media (min-width: 769px) and (max-width: 1429px) {
     .cslrfull-img3 {
         width: auto;
         height: 100%;
@@ -1391,7 +1397,8 @@ footer {
     }
 }
 
-@media (max-width: 1429px) {
+
+@media (min-width: 769px) and (max-width: 1429px) {
     .cslrfull-img4 {
         width: auto;
         height: 100%;
