@@ -1336,6 +1336,18 @@ footer {
     }
 }
 
+.full-img-stv {
+    width: auto;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .full-img-stv {
+        width: auto;
+        height: 100%;
+    }
+}
+
 .cslr-full-image {
     background-color: #FAFAFA;
     margin-top: 100px;
