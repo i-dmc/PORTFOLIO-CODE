@@ -282,7 +282,7 @@ h6 {
     max-width: 500px;
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1600px) {
     .intro-text {
         max-width: 900px;
         padding-top: 25px;
