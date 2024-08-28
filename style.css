@@ -758,6 +758,12 @@ footer {
     padding-right: 80px;
 }
 
+@media (max-width: 768px) {
+    .institution {
+        padding-bottom: 30px;
+        padding-right: 30px;
+    }
+}
 
 .header-img {
     max-height: 200px;
