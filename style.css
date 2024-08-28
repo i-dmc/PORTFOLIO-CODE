@@ -58,6 +58,10 @@ nav {
     }
 }
 
+.home {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .home {
         height: 25px;
