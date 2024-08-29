@@ -349,14 +349,17 @@ h6 {
 
 
 .pas-show-hover {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     opacity: 0;
+    padding-left: 80px;
+    padding-right: 80px;
     position: absolute;
     bottom: 0;
-    left: 80px;
+    left: 0;
     transform: translateY(100%);
     transition: all .5s ease;
 }
@@ -428,12 +431,12 @@ h6 {
 }
 
 .tile h2,
-.tile h6 {
+.tile > h6 {
     transition: opacity .5s ease;
 }
 
 .tile:hover h2,
-.tile:hover h6 {
+.tile:hover > h6 {
     opacity: 0;
 }
 
@@ -445,14 +448,17 @@ h6 {
 }
 
 .stv-show-hover {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     opacity: 0;
+    padding-left: 80px;
+    padding-right: 80px;
     position: absolute;
     bottom: 0;
-    left: 80px;
+    left: 0;
     transform: translateY(100%);
     transition: all .5s ease;
 }
@@ -485,13 +491,14 @@ h6 {
 }
 
 .cslr-show-hover {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     position: absolute;
     bottom: 0;
-    left: 80px;
+    left: 0;
     transform: translateY(100%);
     transition: all .5s ease;
 }
@@ -501,7 +508,6 @@ h6 {
         display: none;
     }
 }
-
 
 .cslr:hover .cslr-show-hover {
     opacity: 1;
