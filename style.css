@@ -1046,6 +1046,34 @@ footer {
     }
 }
 
+.stv-preview-img2 {
+    padding-top: 75px;
+    max-width: 700px;
+}
+
+@media (max-width: 768px) {
+    .stv-preview-img2 {
+        padding: 50px 0 25px 0;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1429px) {
+    .stv-preview-img2 {
+        padding: 50px 0 25px 0;
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .preview-img2 {
+        padding: 50px 0 25px 0;
+        max-width: 100%;
+    }
+}
+
+
 .small-img {
     padding: 75px;
     max-width: 500px;
