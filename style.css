@@ -48,6 +48,10 @@ nav {
     }
 }
 
+.nav-item-desktop:hover {
+    border-bottom: 2px solid black;
+}
+
 .nav-item-mobile {
     display: none
 }
@@ -78,6 +82,7 @@ nav {
 .nav-item:hover {
     border-bottom: 2px solid black;
 }
+
 
 .right-nav {
     display: flex;
