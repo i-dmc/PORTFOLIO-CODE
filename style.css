@@ -322,6 +322,7 @@ h6 {
     justify-content: center;
     height: 450px;
     padding-left: 80px;
+    position: relative;
     overflow: hidden;
 }
 
@@ -348,13 +349,18 @@ h6 {
 
 
 .pas-show-hover {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     opacity: 0;
-    height: 0;
-    transform: translateY(290px);
+    padding-left: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: all .5s ease;
 }
 
 @media (max-width: 768px) {
@@ -367,9 +373,6 @@ h6 {
 .pas:hover .pas-show-hover {
     opacity: 1;
     transform: translateY(0);
-    transition: all 0.3s ease-in;
-    margin-top: auto;
-    height: auto;
 }
 
 @media (max-width: 768px) {
@@ -426,17 +429,14 @@ h6 {
     padding-left: 10px;
 }
 
-.tile:hover .pas,
-.pas:hover .project-name,
-.pas:hover .list-start,
-.pas:hover .list-follow {
-    opacity: 0;
-    display: none;
+.tile h2,
+.tile > h6 {
+    transition: opacity .5s ease;
 }
 
 .tile:hover h2,
-.tile:hover .h6 {
-    height: 0;
+.tile:hover > h6 {
+    opacity: 0;
 }
 
 .stv {
@@ -446,20 +446,19 @@ h6 {
     background-position: center;
 }
 
-.stv:hover .project-name,
-.stv:hover .list-start,
-.stv:hover .list-follow {
-    opacity: 0;
-}
-
 .stv-show-hover {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     opacity: 0;
-    height: 0;
-    transform: translateY(290px);
+    padding-left: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: all .5s ease;
 }
 
 
@@ -473,9 +472,6 @@ h6 {
 .stv:hover .stv-show-hover {
     opacity: 1;
     transform: translateY(0);
-    transition: all 0.3s ease-in;
-    margin-top: auto;
-    height: auto;
     z-index: 8;
 }
 
@@ -492,20 +488,18 @@ h6 {
     background-position: center;
 }
 
-.cslr:hover .project-name,
-.cslr:hover .list-start,
-.cslr:hover .list-follow {
-    opacity: 0;
-}
-
 .cslr-show-hover {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    opacity: 0;
-    height: 0;
-    transform: translateY(290px);
+    padding-left: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: all .5s ease;
 }
 
 @media (max-width: 768px) {
@@ -514,13 +508,9 @@ h6 {
     }
 }
 
-
 .cslr:hover .cslr-show-hover {
     opacity: 1;
     transform: translateY(0);
-    transition: all 0.3s ease-in;
-    margin-top: auto;
-    height: auto;
 }
 
 @media (max-width: 768px) {
