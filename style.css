@@ -356,7 +356,6 @@ h6 {
     width: 100%;
     opacity: 0;
     padding-left: 80px;
-    padding-right: 80px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -455,7 +454,6 @@ h6 {
     width: 100%;
     opacity: 0;
     padding-left: 80px;
-    padding-right: 80px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -496,6 +494,7 @@ h6 {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding-left: 80px;
     position: absolute;
     bottom: 0;
     left: 0;
