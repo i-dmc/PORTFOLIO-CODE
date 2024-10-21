@@ -435,7 +435,7 @@ h6 {
 }
 
 .tile:hover h2,
-.tile>h6 {
+.tile:hover>h6 {
     opacity: 0;
 }
 
@@ -643,6 +643,21 @@ footer {
         display: block;
     }
 }
+
+@media (min-width: 1600px) {
+    .case-study {
+        display: flex;
+        gap: 100px;
+    }
+}
+
+@media (min-width: 1616px) {
+    .case-study {
+        display: flex;
+        gap: 120px;
+    }
+}
+
 
 .about-left {
     position: sticky;
@@ -911,11 +926,12 @@ footer {
 @media (min-width: 1600px) {
     .about-right-prj {
         font-size: 18px;
-        max-width: 700px;
+        max-width: 600px;
         margin-right: 200px;
-        margin-left: 100px;
+        margin-left: 50px;
     }
 }
+
 
 @media (min-width: 769px) and (max-width: 1400px) {
     .about-right-prj {
@@ -991,7 +1007,7 @@ footer {
         height: 100%;
         background-color: transparent;
         padding-right: 100px;
-        margin-left: 200px;
+        margin-left: 100px;
         border-right: 1px solid #000000;
         width: 300px;
     }
