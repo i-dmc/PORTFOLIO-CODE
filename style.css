@@ -25,15 +25,17 @@ body {
     }
 }
 
-@media (min-width: 769px) and (max-width: 1229px) {
+@media (min-width: 769px) and (max-width: 1200px) {
     body {
-        margin: 0 50px;
+        margin: 0 25px;
         font-size: 16px;
         font-family: "Kumbh Sans", sans-serif;
         line-height: 26px;
         font-weight: 300;
     }
 }
+
+
 
 nav {
     display: flex;
@@ -695,6 +697,8 @@ footer {
 @media (min-width: 769px) and (max-width: 1229px) {
     .case-study {
         display: block;
+        width: 80%;
+        margin: auto;
     }
 }
 
