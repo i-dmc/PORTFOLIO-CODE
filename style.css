@@ -25,6 +25,16 @@ body {
     }
 }
 
+@media (min-width: 769px) and (max-width: 1229px) {
+    body {
+        margin: 0 50px;
+        font-size: 16px;
+        font-family: "Kumbh Sans", sans-serif;
+        line-height: 26px;
+        font-weight: 300;
+    }
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -139,10 +149,20 @@ h2 {
 
 @media (max-width: 768px) {
     h2 {
-        font-size: 38px;
+        font-size: 50px;
         font-family: "Kumbh Sans", sans-serif;
         font-weight: 900;
         line-height: 48px;
+        height: auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+    h2 {
+        font-size: 72px;
+        font-family: "Kumbh Sans", sans-serif;
+        font-weight: 900;
+        line-height: 65px;
         height: auto;
     }
 }
@@ -155,12 +175,19 @@ h3 {
 
 @media (max-width: 768px) {
     h3 {
-        font-size: 32px;
+        font-size: 36px;
         font-family: "Kumbh Sans", sans-serif;
         font-weight: 900;
     }
 }
 
+@media (min-width: 769px) and (max-width: 1000px) {
+    h3 {
+        font-size: 56px;
+        font-family: "Kumbh Sans", sans-serif;
+        font-weight: 900;
+    }
+}
 
 h4 {
     font-family: "Kumbh Sans", sans-serif;
@@ -332,12 +359,25 @@ h6 {
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        max-width: 768px;
         height: 250px;
-        padding-left: 15px;
+        padding-left: 25px;
         overflow: hidden;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1000px) {
+    .tile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 450px;
+        padding-left: 50px;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
 
 .pas {
     background-image: url('./Images/HOMEPAGE/PAS-BG.jpg');
@@ -418,8 +458,16 @@ h6 {
 @media (max-width: 768px) {
     .project-name {
         color: #ffffff;
-        max-width: 300px;
+        max-width: 500px;
         padding-bottom: 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+    .project-name {
+        color: #ffffff;
+        padding-bottom: 30px;
+        max-width: auto;
     }
 }
 
@@ -644,6 +692,13 @@ footer {
     }
 }
 
+@media (min-width: 769px) and (max-width: 1229px) {
+    .case-study {
+        display: block;
+    }
+}
+
+
 @media (min-width: 1600px) {
     .case-study {
         display: flex;
@@ -670,13 +725,13 @@ footer {
     max-width: 500px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 988px) {
     .about-left {
         display: none;
     }
 }
 
-@media (min-width: 769px) and (max-width: 1400px) {
+@media (min-width: 999px) and (max-width: 1400px) {
     .about-left {
         position: sticky;
         top: 100px;
@@ -810,6 +865,18 @@ footer {
     }
 }
 
+@media (min-width: 769px) and (max-width: 1105px) {
+    .image-text-button-pas {
+        background-image: url('./Images/PAS-BG.jpg');
+        background-position: 25% 25%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 75px 0 75px 0;
+        margin-bottom: 50px;
+    }
+}
+
 .image-text-button-stv {
     background-image: url('./Images/HOMEPAGE/STV-BG.jpg');
     background-position: 100% 50%;
@@ -829,6 +896,18 @@ footer {
         background-attachment: fixed;
         padding: 50px 0 50px 0;
         margin-bottom: 75px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+    .image-text-button-stv {
+        background-image: url('./Images/HOMEPAGE/STV-BG.jpg');
+        background-position: 25% 25%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 75px 0 75px 0;
+        margin-bottom: 50px;
     }
 }
 
@@ -854,41 +933,53 @@ footer {
     }
 }
 
+@media (min-width: 769px) and (max-width: 1000px) {
+    .image-text-button-cslr {
+        background-image: url('./Images/HOMEPAGE/CSLR-BG.jpg');
+        background-position: 25% 25%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 75px 0 75px 0;
+        margin-bottom: 50px;
+    }
+}
+
 
 
 .title {
-    font-size: 85px;
+    font-size: 80px;
     font-family: "Kumbh Sans", sans-serif;
     font-weight: 900;
-    line-height: 100px;
+    line-height: 98px;
     color: #ffffff;
     Padding-left: 50px;
-    max-width: 1000px;
+    max-width: 900px;
     background-color: transparent;
 }
 
 @media (max-width: 768px) {
     .title {
-        font-size: 36px;
+        font-size: 42px;
         font-family: "Kumbh Sans", sans-serif;
         font-weight: 900;
-        line-height: 46px;
+        line-height: 48px;
         color: #ffffff;
         Padding-left: 20px;
-        max-width: 300px;
+        max-width: 500px;
         background-color: transparent;
     }
 }
 
-@media (min-width: 769px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1135px) {
     .title {
-        font-size: 85px;
+        font-size: 56px;
         font-family: "Kumbh Sans", sans-serif;
         font-weight: 900;
-        line-height: 100px;
+        line-height: 62px;
         color: #ffffff;
-        Padding-left: 50px;
-        max-width: 900px;
+        Padding-left: 40px;
+        max-width: 650px;
         background-color: transparent;
     }
 }
@@ -910,7 +1001,7 @@ footer {
 @media (min-width: 769px) and (max-width: 1200px) {
     .about-right-prj {
         font-size: 18px;
-        max-width: 300px;
+        width: 100%;
         margin-right: 25px;
     }
 }
@@ -962,6 +1053,8 @@ footer {
     }
 }
 
+
+
 .about-left-prj {
     position: sticky;
     top: 100px;
@@ -982,20 +1075,34 @@ footer {
         padding-right: 0;
         margin-left: 5px;
         border-right: 0;
-        width: 300px;
+        width: auto;
     }
 }
 
-@media (min-width: 769px) and (max-width: 1400px) {
+
+@media (min-width: 769px) and (max-width: 1229px) {
+    .about-left-prj {
+        position: static;
+        top: 100px;
+        height: 100%;
+        background-color: transparent;
+        padding-right: 0;
+        margin-left: 5px;
+        border-right: 0;
+        width: auto;
+    }
+}
+
+@media (min-width: 1230px) and (max-width: 1400px) {
     .about-left-prj {
         position: sticky;
         top: 100px;
         height: 100%;
         background-color: transparent;
-        padding-right: 25px;
+        padding-right: 50px;
         margin-left: 5px;
         border-right: 1px solid #000000;
-        width: 300px;
+        width: auto;
     }
 }
 
@@ -1007,9 +1114,9 @@ footer {
         height: 100%;
         background-color: transparent;
         padding-right: 100px;
-        margin-left: 100px;
+        margin-left: 60px;
         border-right: 1px solid #000000;
-        width: 300px;
+        width: auto;
     }
 }
 
