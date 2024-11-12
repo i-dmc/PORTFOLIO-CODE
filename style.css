@@ -264,6 +264,52 @@ h6 {
     }
 }
 
+.nav-item-desktop {
+    font-size: 18px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 30px;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .nav-item-desktop {
+        font-size: 18px;
+        font-family: "Kumbh Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 30px;
+        height: auto;
+    }
+}
+
+.nav-item {
+    font-size: 18px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 30px;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .nav-item {
+        font-size: 18px;
+        font-family: "Kumbh Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 30px;
+        height: auto;
+    }
+}
+
 .hp-intro {
     padding-top: 75px;
     padding-bottom: 125px;
