@@ -36,7 +36,6 @@ body {
 }
 
 
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -85,7 +84,6 @@ nav {
         padding-top: 3px;
     }
 }
-
 
 .nav-item {
     padding-bottom: 5px;
@@ -151,7 +149,7 @@ h2 {
 
 @media (max-width: 768px) {
     h2 {
-        font-size: 50px;
+        font-size: 40px;
         font-family: "Kumbh Sans", sans-serif;
         font-weight: 900;
         line-height: 48px;
