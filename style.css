@@ -1028,15 +1028,28 @@ footer {
     background-color: transparent;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
+    .title {
+        font-size: 34px;
+        font-family: "Kumbh Sans", sans-serif;
+        font-weight: 900;
+        line-height: 42px;
+        color: #ffffff;
+        Padding-left: 15px;
+        max-width: 400px;
+        background-color: transparent;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 768px) {
     .title {
         font-size: 42px;
         font-family: "Kumbh Sans", sans-serif;
         font-weight: 900;
         line-height: 48px;
         color: #ffffff;
-        Padding-left: 20px;
-        max-width: 500px;
+        Padding-left: 15px;
+        max-width: 400px;
         background-color: transparent;
     }
 }
