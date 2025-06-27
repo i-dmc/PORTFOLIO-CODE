@@ -40,7 +40,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 75px 0 50px 0;
+    padding: 70px 0 50px 0;
 }
 
 @media (max-width: 768px) {
@@ -217,7 +217,7 @@ h4 {
 @media (min-width: 769px) and (max-width: 1400px) {
     h4 {
         font-family: "Kumbh Sans", sans-serif;
-        font-size: 28px;
+        font-size: 32px;
         font-weight: 500;
         line-height: 42px;
     }
@@ -368,7 +368,15 @@ h6 {
 }
 
 .intro-text {
-    max-width: 500px;
+    max-width: 750px;
+}
+
+@media (max-width: 1400px) {
+    .intro-text {
+        max-width: 600px;
+        padding-top: 25px;
+    }
+
 }
 
 @media (min-width: 1600px) {
@@ -433,7 +441,6 @@ h6 {
         overflow: hidden;
     }
 }
-
 
 .pas {
     background-image: url('./Images/HOMEPAGE/PAS-BG.jpg');
@@ -634,6 +641,52 @@ h6 {
     }
 }
 
+
+
+.freesauce {
+    background-image: url('./Images/FREESAUCE/FS-BANNER.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.freesauce-show-hover {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    opacity: 0;
+    padding-left: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: all .5s ease;
+}
+
+
+@media (max-width: 768px) {
+    .freesauce-show-hover {
+        display: none;
+    }
+}
+
+
+.freesauce:hover .freesauce-show-hover {
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 8;
+}
+
+@media (max-width: 768px) {
+    .freesauce:hover .freesauce-show-hover {
+        display: none;
+    }
+}
+
+
+
 .list-start {
     list-style-type: none;
     color: #ffffff;
@@ -698,7 +751,7 @@ footer {
 
 .footer-text {
     padding: 20px 0 20px 0;
-    max-width: 475px;
+    max-width: 700px;
     font-weight: 400;
 }
 
@@ -913,100 +966,40 @@ footer {
 }
 
 
-.image-text-button-pas {
-    background-image: url('./Images/PAS-BG.jpg');
+.image-text-button {
     background-position: 100% 50%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 125px 0 125px 0;
+    height: 446px;
+    /* set a consistent height */
+    display: flex;
+    align-items: center;
+    /* vertical center */
+    justify-content: left;
+    /* horizontal center (optional) */
+    text-align: left;
     margin-bottom: 75px;
+    padding: 0 20px;
+    /* horizontal padding only */
 }
 
 @media (max-width: 768px) {
-    .image-text-button-pas {
-        background-image: url('./Images/PAS-BG.jpg');
-        background-position: 25% 25%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        padding: 50px 0 50px 0;
-        margin-bottom: 50px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1105px) {
-    .image-text-button-pas {
-        background-image: url('./Images/PAS-BG.jpg');
-        background-position: 25% 25%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        padding: 75px 0 75px 0;
-        margin-bottom: 50px;
-    }
-}
-
-.image-text-button-stv {
-    background-image: url('./Images/HOMEPAGE/STV-BG.jpg');
-    background-position: 100% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 125px 0 125px 0;
-    margin-bottom: 75px;
-}
-
-@media (max-width: 768px) {
-    .image-text-button-stv {
-        background-image: url('./Images/HOMEPAGE/STV-BG.jpg');
-        background-position: 80% 80%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        padding: 50px 0 50px 0;
-        margin-bottom: 75px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1000px) {
-    .image-text-button-stv {
-        background-image: url('./Images/HOMEPAGE/STV-BG.jpg');
-        background-position: 25% 25%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        padding: 75px 0 75px 0;
-        margin-bottom: 50px;
-    }
-}
-
-.image-text-button-cslr {
-    background-image: url('./Images/HOMEPAGE/CSLR-BG.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 125px 0 125px 0;
-    margin-bottom: 75px;
-}
-
-@media (max-width: 768px) {
-    .image-text-button-cslr {
-        background-image: url('./Images/HOMEPAGE/CSLR-BG.jpg');
+    .image-text-button {
         background-position: 10% 100%;
+        height: 150px;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        padding: 50px 0 50px 0;
+        padding: 50px 0 50px 10px;
         margin-bottom: 75px;
     }
 }
 
-@media (min-width: 769px) and (max-width: 1000px) {
-    .image-text-button-cslr {
-        background-image: url('./Images/HOMEPAGE/CSLR-BG.jpg');
+@media (min-width: 769px) and (max-width: 1135px) {
+    .image-text-button {
         background-position: 25% 25%;
+        height: 150px;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -1015,7 +1008,21 @@ footer {
     }
 }
 
+.image-text-button.pas {
+    background-image: url('./Images/PAS-BG.jpg');
+}
 
+.image-text-button.cslr {
+    background-image: url('./Images/CSLR-BG.jpg');
+}
+
+.image-text-button.stv {
+    background-image: url('./Images/STV-BG.jpg');
+}
+
+.image-text-button.freesauce {
+    background-image: url('./Images/FREESAUCE-BG.jpg');
+}
 
 .title {
     font-size: 80px;
@@ -1690,6 +1697,89 @@ footer {
     .cslrfull-img4 {
         width: auto;
         height: 100%;
+        margin-top: 0px;
+    }
+}
+
+
+.fs-full-image {
+    background-color: #FAFAFA;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    box-sizing: border-box;
+    padding: 75px;
+}
+
+@media (max-width: 768px) {
+    .fs-full-image {
+        background-color: #FAFAFA;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        box-sizing: border-box;
+        padding: 25px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1429px) {
+    .fs-full-image {
+        background-color: #FAFAFA;
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        box-sizing: border-box;
+        padding: 75px;
+    }
+}
+
+.fsfull-img {
+    width: 500px;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .fsfull-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1429px) {
+    .fsfull-img {
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+    }
+}
+
+.fsfull-img2 {
+    width: 500px;
+    height: 100%;
+    margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+    .fsfull-img2 {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1429px) {
+    .fsfull-img2 {
+        width: 100%;
+        height: auto;
         margin-top: 0px;
     }
 }
